@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# MLflow
+mlflow.db
+mlruns/
+
+# Generated data (regenerable via scripts)
+data/processed/
+data/reference/*.csv
+
+# Models (regenerable via training)
+models/*.pkl
+
+# Incidents (runtime data, not source)
+incidents/*.db
+
+# Reports (generated)
+reports/*.html
+
+# OS/editor junk
+.vscode/
+.DS_Store
