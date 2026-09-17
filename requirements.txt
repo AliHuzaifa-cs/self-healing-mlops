@@ -9,3 +9,4 @@ prometheus-fastapi-instrumentator
 evidently==0.4.35
 requests
 ollama
+pytest
